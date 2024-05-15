@@ -33,6 +33,7 @@ new_vc1 = {
     "filters": "[]",
     "tabOrder": 15000
 }
+
 new_vc2 = {
                     "id": 2539326977,
                     "x": 630,
@@ -45,6 +46,59 @@ new_vc2 = {
                     "tabOrder": 38000
                 }
 
+footer_text={
+    "x": 39.52191235059761,
+    "y": 657.8486055776892,
+    "z": 5000,
+    "width": 140.23904382470118,
+    "height": 36.972111553784856,
+    "config": "{\"name\":\"a145d8869e65ef7d44fd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":39.52191235059761,\"y\":657.8486055776892,\"z\":5000,\"width\":140.23904382470118,\"height\":36.972111553784856,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Source: \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\"}}]}]}}]}}}",
+    "filters": "[]",
+    "tabOrder": 5000
+}
+
+ibutton={
+    "x": 1216.2549800796812,
+    "y": 11.47410358565737,
+    "z": 7001,
+    "width": 43.34661354581673,
+    "height": 39.52191235059761,
+    "config": "{\"name\":\"88af22203e111f0690dd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1216.2549800796812,\"y\":11.47410358565737,\"z\":7001,\"width\":43.34661354581673,\"height\":39.52191235059761}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.sigmoid.com/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+    "filters": "[]"
+}
+
+arrows={
+    "x": 1053,
+    "y": 15,
+    "z": 6000,
+    "width": 35,
+    "height": 35,
+    "config": "{\"name\":\"123104541ae573e00700\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1053,\"y\":15,\"z\":6000,\"width\":35,\"height\":35,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'leftArrow'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+    "filters": "[]",
+    "tabOrder": 6000
+}
+
+arrow_2={
+    "x": 1105.3386454183267,
+    "y": 15,
+    "z": 7000,
+    "width": 35,
+    "height": 35,
+    "config": "{\"name\":\"163f28fe1120b90b497d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1105.3386454183267,\"y\":15,\"z\":7000,\"width\":35,\"height\":35,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'rightArrow'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"15L\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"70L\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSectione8ac142a046f9e1a3128'\"}}}}}]}}}",
+    "filters": "[]",
+    "tabOrder": 7000
+}
+
+footer_box={
+    "x": 19.123505976095615,
+    "y": 643.8247011952191,
+    "z": 4000,
+    "width": 1240.4780876494024,
+    "height": 62.470119521912345,
+    "config": "{\"name\":\"fa8e2fe72928be0b6366\",\"layouts\":[{\"id\":0,\"position\":{\"x\":19.123505976095615,\"y\":643.8247011952191,\"z\":4000,\"width\":1240.4780876494024,\"height\":62.470119521912345,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#00519C'\"}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"'16'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#CCCCCC'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"7D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Outer'\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#808080'\"}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+    "filters": "[]",
+    "tabOrder": 4000
+}
 
 if ss:
     st.info('Select one of the option')
@@ -79,6 +133,11 @@ if ss:
                                 # print(section,'section')
                                 section['visualContainers'].append(new_vc1)
                                 section['visualContainers'].append(new_vc2)
+                                section['visualContainers'].append(footer_text)
+                                section['visualContainers'].append(footer_box)
+                                section['visualContainers'].append(arrow_2)
+                                section['visualContainers'].append(arrows)
+                                section['visualContainers'].append(ibutton)
                                     
                             # New Layout file
                             with open('app-generated.json', 'w') as f:
